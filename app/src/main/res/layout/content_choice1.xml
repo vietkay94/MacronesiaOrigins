@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_choice1"
+    tools:context="zapper.macronesiaorigins.Choice1"
+    android:padding="0dp"
+    android:foregroundGravity="center_vertical|center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutTop"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@color/black">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/response1"
+            android:onClick="result1"
+            android:id="@+id/button6"
+            android:layout_gravity="center"
+            android:background="@color/tan"
+            android:layout_marginTop="60dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/response2"
+            android:onClick="result2"
+            android:id="@+id/button5"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/tan" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/response3"
+            android:onClick="result3"
+            android:id="@+id/button7"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/tan" />
+
+    </LinearLayout>
+</RelativeLayout>

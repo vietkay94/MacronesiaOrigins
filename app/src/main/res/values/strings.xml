@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MacronesiaOrigins</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select_screen">SelectScreen</string>
+    <string name="title_activity_game_page1">GamePage1</string>
+    <string name="title_activity_choice1">Choice1</string>
+    <string name="response1">Finally some good news! Good work crew!</string>
+    <string name="response2">Just tell me when we get there.</string>
+    <string name="response3">You are a fool, Kai. We are far from famous right now!</string>
+    <string name="title_activity_credits">Credits</string>
+</resources>
